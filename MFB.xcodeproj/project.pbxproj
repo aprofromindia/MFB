@@ -17,7 +17,7 @@
 		A288C4B51AF3B8C100C360FA /* MFBStationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A288C4B21AF3B8C100C360FA /* MFBStationModel.m */; };
 		A288C4B61AF3B8C100C360FA /* MFBTimetableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A288C4B41AF3B8C100C360FA /* MFBTimetableModel.m */; };
 		A288C4B81AF3B8E800C360FA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A288C4B71AF3B8E800C360FA /* README.md */; };
-		A288C4BC1AF3B8FE00C360FA /* RESTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A288C4BB1AF3B8FE00C360FA /* RESTClient.m */; };
+		A2EA49A11AF3BEB600858E21 /* RESTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA49A01AF3BEB600858E21 /* RESTClient.m */; };
 		E1F4A271E6CD41F606D5AC19 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C4145237BCEDAF18D1937B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +53,8 @@
 		A288C4B31AF3B8C100C360FA /* MFBTimetableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBTimetableModel.h; sourceTree = "<group>"; };
 		A288C4B41AF3B8C100C360FA /* MFBTimetableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBTimetableModel.m; sourceTree = "<group>"; };
 		A288C4B71AF3B8E800C360FA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A288C4BA1AF3B8FE00C360FA /* RESTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTClient.h; sourceTree = "<group>"; };
-		A288C4BB1AF3B8FE00C360FA /* RESTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTClient.m; sourceTree = "<group>"; };
+		A2EA499F1AF3BEB600858E21 /* RESTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTClient.h; sourceTree = "<group>"; };
+		A2EA49A01AF3BEB600858E21 /* RESTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 		A288C4891AF3B82C00C360FA /* MFB */ = {
 			isa = PBXGroup;
 			children = (
-				A288C4B91AF3B8FE00C360FA /* Utils */,
+				A2EA499E1AF3BEB600858E21 /* Utils */,
 				A288C4B01AF3B8C100C360FA /* Model */,
 				A288C48E1AF3B82C00C360FA /* AppDelegate.h */,
 				A288C48F1AF3B82C00C360FA /* AppDelegate.m */,
@@ -160,14 +160,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		A288C4B91AF3B8FE00C360FA /* Utils */ = {
+		A2EA499E1AF3BEB600858E21 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A288C4BA1AF3B8FE00C360FA /* RESTClient.h */,
-				A288C4BB1AF3B8FE00C360FA /* RESTClient.m */,
+				A2EA499F1AF3BEB600858E21 /* RESTClient.h */,
+				A2EA49A01AF3BEB600858E21 /* RESTClient.m */,
 			);
-			name = Utils;
-			path = ../Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		E1B0E3F5B291D1DE881A4675 /* Frameworks */ = {
@@ -316,7 +315,7 @@
 				A288C4B81AF3B8E800C360FA /* README.md in Sources */,
 				A288C4B51AF3B8C100C360FA /* MFBStationModel.m in Sources */,
 				A288C4B61AF3B8C100C360FA /* MFBTimetableModel.m in Sources */,
-				A288C4BC1AF3B8FE00C360FA /* RESTClient.m in Sources */,
+				A2EA49A11AF3BEB600858E21 /* RESTClient.m in Sources */,
 				A288C4931AF3B82C00C360FA /* ViewController.m in Sources */,
 				A288C4901AF3B82C00C360FA /* AppDelegate.m in Sources */,
 				A288C48D1AF3B82C00C360FA /* main.m in Sources */,
