@@ -9,18 +9,18 @@
 #import "RESTClient.h"
 #import "MFBTimetableModel.h"
 
-/// App URLs
+// App URLs
 static NSString *const kBaseURL = @"http://api.mobile.staging.mfb.io";
 static NSString *const kURLPath = @"/mobile/v1/network/station/1/timetable";
 
-/// authentication header key & param.
+// authentication header key & param.
 static NSString *const kAuthKey = @"X-Api-Authentication";
 static NSString *const kAuthParam = @"DEV_TEST_TOKEN_STAGING";
 
-/// HTTP JSON mime type
+// HTTP JSON mime type
 static NSString *const kJSONMimeType = @"application/json";
 
-/// HTTP OK status code.
+// HTTP OK status code.
 static const int kHTTPOK = 200;
 
 @interface RESTClient (){

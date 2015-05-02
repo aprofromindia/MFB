@@ -12,7 +12,7 @@
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>{
     
-    /// view's table view.
+    /// Table view instance.
     IBOutlet UITableView *__weak _tableView;
     
     /// Model to be displayed
