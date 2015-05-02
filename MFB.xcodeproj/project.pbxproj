@@ -111,10 +111,9 @@
 			children = (
 				A2EA499E1AF3BEB600858E21 /* Utils */,
 				A288C4B01AF3B8C100C360FA /* Model */,
+				A2EA49A21AF503C500858E21 /* Controllers */,
 				A288C48E1AF3B82C00C360FA /* AppDelegate.h */,
 				A288C48F1AF3B82C00C360FA /* AppDelegate.m */,
-				A288C4911AF3B82C00C360FA /* ViewController.h */,
-				A288C4921AF3B82C00C360FA /* ViewController.m */,
 				A288C4941AF3B82C00C360FA /* Main.storyboard */,
 				A288C4971AF3B82C00C360FA /* Images.xcassets */,
 				A288C4991AF3B82C00C360FA /* LaunchScreen.xib */,
@@ -167,6 +166,15 @@
 				A2EA49A01AF3BEB600858E21 /* RESTClient.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A2EA49A21AF503C500858E21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A288C4911AF3B82C00C360FA /* ViewController.h */,
+				A288C4921AF3B82C00C360FA /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		E1B0E3F5B291D1DE881A4675 /* Frameworks */ = {
