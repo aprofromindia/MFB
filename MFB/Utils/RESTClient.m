@@ -51,7 +51,7 @@ static const int kHTTPOK = 200;
     return sharedClient;
 }
 
-- (void) get_TimeTablesWithHandler:(void(^)(MFBTimetableModel *timeTable)) handler;{
+- (void) get_TimeTablesWithHandler:(void(^)(MFBTimetableModel *timeTable)) handler{
     [[_urlSession dataTaskWithRequest:_urlRequest completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
 
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
