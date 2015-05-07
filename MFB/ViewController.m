@@ -29,7 +29,7 @@
     
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     
-    [[RESTClient sharedInstance] get_TimeTablesWithHandler:^(MFBTimetableModel *timeTable) {
+    [[RESTClient sharedInstance] timeTablesWithHandler:^(MFBTimetableModel *timeTable) {
         
         _timeTable = timeTable;
         

@@ -24,6 +24,6 @@
  
  @param handler The completion handler passed in.
  */
-- (void) get_TimeTablesWithHandler:(void(^)(MFBTimetableModel *timeTable)) handler;
+- (void) timeTablesWithHandler:(void(^)(MFBTimetableModel *timeTable)) handler;
 
 @end
