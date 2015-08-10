@@ -31,8 +31,6 @@ static const int kHTTPOK = 200;
     NSMutableURLRequest *_urlRequest;
 }
 
-@property(nonnull, nonatomic, copy) void (^timeTableHandler)(MFBTimetableModel *);
-
 @end
 
 
@@ -54,7 +52,6 @@ static const int kHTTPOK = 200;
 }
 
 - (void) timeTablesWithHandler:(void(^)(MFBTimetableModel *timeTable)) handler{
-    self.timeTableHandler = handler;
     
     [[_urlSession dataTaskWithRequest:_urlRequest completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
 
@@ -69,7 +66,7 @@ static const int kHTTPOK = 200;
             MFBTimetableModel *timeTableModel = [[MFBTimetableModel alloc] initWithString:jsonString error:&jsonParseError];
             
             if (!jsonParseError) {
-                _timeTableHandler(timeTableModel);
+                handler(timeTableModel);
             }
         }
     }] resume];
