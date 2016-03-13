@@ -1,0 +1,10 @@
+PODS:
+  - JSONModel (1.0.2)
+
+DEPENDENCIES:
+  - JSONModel
+
+SPEC CHECKSUMS:
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+
+COCOAPODS: 0.36.3
